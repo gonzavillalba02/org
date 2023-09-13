@@ -15,3 +15,13 @@
     outline-color: #6278F7;
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px){
+    .lista-opciones label {
+        font-size: 15px;
+    }
+
+    .lista-opciones select {
+        padding: 20px 20px;
+    }
+}

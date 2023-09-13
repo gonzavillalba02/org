@@ -26,3 +26,19 @@
     height: 75px;
     padding: 22.5px 20px;
 }
+
+@media screen and (max-width: 768px){
+
+    .campo label {
+        font-size: 15px;
+    }
+
+    .campo input {
+        padding: 20px 20px;
+    }
+
+    .campo-color input{
+        height: 70px;
+        padding: none;
+    }
+}

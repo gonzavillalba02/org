@@ -24,3 +24,19 @@
     position: absolute;
     right: 41%;
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer strong {
+        max-width: none;
+        text-align: center;
+    }
+
+    .logo {
+        position: initial;
+        padding: 30px 0 30px 70px;
+    }
+}

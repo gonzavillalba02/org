@@ -18,3 +18,14 @@
     right: 30%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+    .orgSection {
+        flex-direction: column;
+    }
+
+
+    .orgSection img {
+        position: initial;
+    }
+}

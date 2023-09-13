@@ -20,3 +20,21 @@
     color: #212121;
 }
 
+@media screen and (max-width: 768px){
+    .formulario h2 {
+        font-size: 20px;
+    }
+
+    .formulario {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .formulario form{
+        padding: 40px;
+        margin: 0 10px 50px 0;
+        max-width: 100%;
+    }
+
+}
+
